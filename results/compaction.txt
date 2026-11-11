@@ -1,0 +1,30 @@
+Compaction History: 
+id                                   keyspace_name columnfamily_name   compacted_at            bytes_in bytes_out rows_merged     compaction_properties             
+715700a0-dd52-11f1-a157-ff7f9fb0d098 hw3           user_actions        2026-11-10T22:02:38.401 144808   144808    {1:1}           {compaction_type:Major compaction}
+61b4ed60-dd52-11f1-a157-ff7f9fb0d098 system_schema columns             2026-11-10T22:02:12.175 8561     8139      {1:5, 4:1}      {compaction_type:Compaction}      
+61188650-dd52-11f1-a157-ff7f9fb0d098 system_schema keyspaces           2026-11-10T22:02:11.148 560      292       {1:5, 4:1}      {compaction_type:Compaction}      
+61157910-dd52-11f1-a157-ff7f9fb0d098 system_schema tables              2026-11-10T22:02:11.133 4640     3910      {1:5, 4:1}      {compaction_type:Compaction}      
+610f1070-dd52-11f1-a157-ff7f9fb0d098 system_schema column_masks        2026-11-10T22:02:11.094 3596     3390      {1:2, 4:1}      {compaction_type:Compaction}      
+5f9f05b0-dd52-11f1-a157-ff7f9fb0d098 system        sstable_activity_v2 2026-11-10T22:02:08.682 50       50        {1:1}           {compaction_type:Compaction}      
+5f9f2cc0-dd52-11f1-a157-ff7f9fb0d098 system        sstable_activity    2026-11-10T22:02:08.681 53       53        {1:1}           {compaction_type:Compaction}      
+5f98c420-dd52-11f1-a157-ff7f9fb0d098 system        local               2026-11-10T22:02:08.637 866      711       {4:1}           {compaction_type:Compaction}      
+56b40090-dd52-11f1-a157-ff7f9fb0d098 system_schema keyspaces           2026-11-10T22:01:53.715 634      292       {1:5, 4:1}      {compaction_type:Compaction}      
+56aef780-dd52-11f1-a157-ff7f9fb0d098 system_schema columns             2026-11-10T22:01:53.677 8561     8140      {1:5, 4:1}      {compaction_type:Compaction}      
+55d9cd30-dd52-11f1-a157-ff7f9fb0d098 system_schema tables              2026-11-10T22:01:52.288 4755     3910      {1:5, 4:1}      {compaction_type:Compaction}      
+55d33d80-dd52-11f1-a157-ff7f9fb0d098 system_schema column_masks        2026-11-10T22:01:52.241 3596     3390      {1:2, 4:1}      {compaction_type:Compaction}      
+542650da-dd52-11f1-a157-ff7f9fb0d098 system        sstable_activity_v2 2026-11-10T22:01:49.426 440      92        {1:25}          {compaction_type:Compaction}      
+54223220-dd52-11f1-a157-ff7f9fb0d098 system        sstable_activity    2026-11-10T22:01:49.403 422      82        {1:24}          {compaction_type:Compaction}      
+541a9100-dd52-11f1-a157-ff7f9fb0d098 system_schema keyspaces           2026-11-10T22:01:49.344 560      274       {1:5, 4:1}      {compaction_type:Compaction}      
+494dd390-dd52-11f1-a157-ff7f9fb0d098 system_schema tables              2026-11-10T22:01:31.228 4667     3951      {1:5, 4:1}      {compaction_type:Compaction}      
+494b1470-dd52-11f1-a157-ff7f9fb0d098 system_schema columns             2026-11-10T22:01:31.214 8565     8140      {1:5, 4:1}      {compaction_type:Compaction}      
+48d59650-dd52-11f1-a157-ff7f9fb0d098 system_schema keyspaces           2026-11-10T22:01:30.442 560      292       {1:5, 4:1}      {compaction_type:Compaction}      
+48cd8000-dd52-11f1-a157-ff7f9fb0d098 system_schema column_masks        2026-11-10T22:01:30.395 3615     3390      {1:2, 4:1}      {compaction_type:Compaction}      
+46a45e70-dd52-11f1-a157-ff7f9fb0d098 system        peers_v2            2026-11-10T22:01:26.764 1988     929       {2:2, 3:1}      {compaction_type:Compaction}      
+469d0b7a-dd52-11f1-a157-ff7f9fb0d098 system        peers               2026-11-10T22:01:26.720 1941     914       {2:2, 3:1}      {compaction_type:Compaction}      
+468a94e0-dd52-11f1-a157-ff7f9fb0d098 system_schema views               2026-11-10T22:01:26.596 175      68        {2:2, 3:1}      {compaction_type:Compaction}      
+4685d9f0-dd52-11f1-a157-ff7f9fb0d098 system_schema indexes             2026-11-10T22:01:26.567 411      190       {2:2, 3:1}      {compaction_type:Compaction}      
+4682f3c0-dd52-11f1-a157-ff7f9fb0d098 system_schema aggregates          2026-11-10T22:01:26.548 175      68        {2:2, 3:1}      {compaction_type:Compaction}      
+467fbf70-dd52-11f1-a157-ff7f9fb0d098 system_schema functions           2026-11-10T22:01:26.526 175      68        {2:2, 3:1}      {compaction_type:Compaction}      
+467bc7d0-dd52-11f1-a157-ff7f9fb0d098 system_schema types               2026-11-10T22:01:26.506 175      68        {2:2, 3:1}      {compaction_type:Compaction}      
+467908b0-dd52-11f1-a157-ff7f9fb0d098 system_schema triggers            2026-11-10T22:01:26.486 175      68        {2:2, 3:1}      {compaction_type:Compaction}      
+46762280-dd52-11f1-a157-ff7f9fb0d098 system_schema dropped_columns     2026-11-10T22:01:26.460 269      119       {2:2, 3:1}      {compaction_type:Compaction}      
